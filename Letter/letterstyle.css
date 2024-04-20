@@ -1,0 +1,479 @@
+body .letter-wrapper {
+    border: 1pt solid;
+    margin: auto;
+    overflow: hidden;
+    background-color: #fffde7;
+    left: auto;
+    top: auto;
+    width: 210mm;
+    height: 297mm;
+    /* background-image: url("../img/watermark2.png"); */
+    position: relative;
+    /*.main-letter*/
+  }
+
+  body .letter-background .left-top-rect
+  {
+    position: absolute;
+    width: 94mm;
+    height: 36mm;
+    top: 0mm;
+    left: -11%;
+    background-color: #763b2b;
+    transform: skewX(-48deg);
+
+  }
+  body .letter-background .img1
+  {
+    position: absolute;
+    width: 39%;
+    height: 70%;
+    z-index: 1;
+    top: 4mm;
+    left: 31mm;
+    transform: skewX(48deg);
+  }
+  body .letter-background .cross1-1
+  {
+    position: absolute;
+    top: 1mm;
+    left: -3mm;
+
+  }
+  body .letter-background .cross1
+  {
+    position: absolute;
+    top: 40mm;
+    left: 9mm;
+    width: 1mm;
+    height: 5mm;
+    transform: rotate(34deg);
+    background-color: #d57317;
+  }
+  body .letter-background .cross2
+  {
+    position: absolute;
+    top: 40mm;
+    left: 9mm;
+    width: 1mm;
+    height: 5mm;
+    transform: rotate(-34deg);
+    background-color: #d57317;
+  }
+  body .letter-background .cross3
+  {
+    position: absolute;
+    top: 47mm;
+    left: 9mm;
+    width: 1mm;
+    height: 5mm;
+    transform: rotate(34deg);
+    background-color: #d57317;
+  }
+  body .letter-background .cross4
+  {
+    position: absolute;
+    top: 47mm;
+    left: 9mm;
+    width: 1mm;
+    height: 5mm;
+    transform: rotate(-34deg);
+    background-color: #d57317;
+  }
+  body .letter-background .cross5
+  {
+    position: absolute;
+    top: 54mm;
+    left: 9mm;
+    width: 1mm;
+    height: 5mm;
+    transform: rotate(34deg);
+    background-color: #d57317;
+  }
+  body .letter-background .cross6
+  {
+    position: absolute;
+    top: 54mm;
+    left: 9mm;
+    width: 1mm;
+    height: 5mm;
+    transform: rotate(-34deg);
+    background-color: #d57317;
+  }
+  body .letter-background .cross2-1
+  {
+    position: absolute;
+    bottom: 5mm;
+    right: -3mm;
+
+  }
+  
+  body .letter-background .cross7
+  {
+    position: absolute;
+    bottom: 57mm;
+    right: 9mm;
+    width: 1mm;
+    height: 5mm;
+    transform: rotate(34deg);
+    background-color: #5d3024;
+  }
+  body .letter-background .cross8
+  {
+    position: absolute;
+    bottom: 57mm;
+    right: 9mm;
+    width: 1mm;
+    height: 5mm;
+    transform: rotate(-34deg);
+    background-color: #5d3024;
+  }
+  body .letter-background .cross9
+  {
+    position: absolute;
+    bottom: 49mm;
+    right: 9mm;
+    width: 1mm;
+    height: 5mm;
+    transform: rotate(34deg);
+    background-color: #5d3024;
+  }
+  body .letter-background .cross10
+  {
+    position: absolute;
+    bottom: 49mm;
+    right: 9mm;
+    width: 1mm;
+    height: 5mm;
+    transform: rotate(-34deg);
+    background-color: #5d3024;
+  }
+  body .letter-background .cross11
+  {
+    position: absolute;
+    bottom: 41mm;
+    right: 9mm;
+    width: 1mm;
+    height: 5mm;
+    transform: rotate(34deg);
+    background-color: #5d3024;
+  }
+  body .letter-background .cross12
+  {
+    position: absolute;
+    bottom: 41mm;
+    right: 9mm;
+    width: 1mm;
+    height: 5mm;
+    transform: rotate(-34deg);
+    background-color: #5d3024;
+  }
+  body .letter-background .text
+  {
+    position: absolute;
+    top: 48mm;
+    right: 40mm;
+   
+  }
+  body .letter-background .letter-content
+  {
+    position: absolute;
+    top: 76mm;
+    left: 12mm;
+  }
+
+  body .letter-background .sign
+  {
+    position: absolute;
+    bottom: 34mm;
+    right: 39mm;
+  }
+  body .letter-background .sign_img
+  {
+    position: absolute;
+    bottom: 20mm;
+    right: 2mm;
+    width: 20mm;
+    height: 20mm;
+  }
+  body .letter-background .dot1-11
+  {
+    position: absolute;
+    top: 24mm;
+    right: 7mm;
+  }
+  body .letter-background  .dot1-2, .dot1-3, .dot1-4, .dot1-5
+   {
+    position: absolute;
+    height: 4px;
+    width: 4px;
+    background-color: #d57317;
+    border-radius: 72%;
+    display: inline-block;
+}
+  body .letter-background .dot1-6, .dot1-7, .dot1-8, .dot1-9
+   {
+    position: absolute;
+    height: 4px;
+    width: 4px;
+    background-color: #d57317;
+    border-radius: 72%;
+    display: inline-block;
+}
+
+.dot1-2
+{
+  top: 43mm;
+  right: 33mm;
+}
+.dot1-3
+{
+  top: 43mm;
+  right: 36mm;
+}
+.dot1-4
+{
+  top: 43mm;
+  right: 40mm;
+}
+.dot1-5
+{
+  top: 43mm;
+  right:43mm;
+}
+.dot1-6
+{
+  top: 43mm;
+  right: 46mm;
+}
+.dot1-7
+{
+  top: 43mm;
+  right: 49mm;
+}
+.dot1-8
+{
+  top: 43mm;
+  right: 52mm;
+}
+.dot1-9
+{
+  top: 43mm;
+  right:56mm;
+}
+
+
+  body .letter-background .dot1, .dot2, .dot3, .dot4, .dot5
+   {
+    position: absolute;
+    height: 4px;
+    width: 4px;
+    background-color: #b75e45;
+    border-radius: 72%;
+    display: inline-block;
+}
+body .letter-background .dot6, .dot7, .dot8, .dot9, .dot10
+  {
+    position: absolute;
+    height: 4px;
+    width: 4px;
+    background-color: #b75e45;
+    border-radius: 72%;
+    display: inline-block;
+}
+body .letter-background .dot11, .dot12, .dot13, .dot14, .dot15
+  {
+    position: absolute;
+    height: 4px;
+    width: 4px;
+    background-color: #b75e45;
+    border-radius: 72%;
+    display: inline-block;
+}
+body .letter-background .dot16, .dot17, .dot18, .dot19, .dot20
+  {
+    position: absolute;
+    height: 4px;
+    width: 4px;
+    background-color: #b75e45;
+    border-radius: 72%;
+    display: inline-block;
+}
+body .letter-background .dot21, .dot22, .dot23, .dot24, .dot25
+{
+    position: absolute;
+    height: 4px;
+    width: 4px;
+    background-color: #b75e45;
+    border-radius: 72%;
+    display: inline-block;
+}
+.dot1 {
+  bottom: 40mm;
+  right: 16mm;
+    }
+
+.dot2 {
+  bottom: 40mm;
+  right: 13mm;
+  }
+
+.dot3 {
+  bottom: 40mm;
+  right: 10mm;			
+    }
+.dot4 {
+    bottom: 40mm;
+    right: 7mm;
+  }
+        
+.dot5 {
+    bottom: 40mm;
+    right: 4mm;	
+  }
+.dot6 {
+    bottom: 36mm;
+    right: 16mm;
+  }
+.dot7 {
+    bottom: 36mm;
+    right: 13mm;
+  }
+.dot8 {
+    bottom: 36mm;
+    right: 10mm;
+        }
+.dot9 {
+    bottom: 36mm;
+    right: 7mm;
+    }
+.dot10 {
+    bottom: 36mm;
+    right: 4mm;
+    }
+  .dot11 {
+    bottom: 32mm;
+    right: 16mm;
+     }
+.dot12 {
+    bottom: 32mm;
+    right: 13mm;
+  }
+.dot13 {
+    bottom: 32mm;
+    right: 10mm;
+  }
+.dot14 {
+    bottom: 32mm;
+    right: 7mm;
+  }
+.dot15 {
+    bottom: 32mm;
+    right: 4mm;
+  }
+.dot16 {
+    bottom: 28mm;
+    right: 16mm;
+  }
+.dot17 {
+    bottom: 28mm;
+    right: 13mm;
+  }
+.dot18 {
+    bottom: 28mm;
+    right: 10mm;
+  }
+.dot19 {
+    bottom: 28mm;
+    right: 7mm;
+  }
+.dot20 {
+    bottom: 28mm;
+    right: 4mm;
+  }
+.dot21 {
+    bottom: 24mm;
+    right: 16mm;
+  }
+.dot22 {
+    bottom: 24mm;
+    right: 13mm;
+  }
+.dot23 {
+    bottom: 24mm;
+    right: 10mm;
+  }
+.dot24 {
+    bottom: 24mm;
+    right: 7mm;
+  }
+.dot25 {
+    bottom: 24mm;
+    right: 4mm;
+  }
+  body .letter-background .right-top-rect
+  {
+    position: absolute;
+    width: 144mm;
+    height: 18mm;
+    top: 0mm;
+    right: -7%;
+    background-color: #f18a29;
+    transform: skewx(-47deg);
+  }
+  body .letter-background .right-tri2
+  {
+    position: absolute;
+    width: 31mm;
+    height: 34mm;
+    top: 40mm;
+    right: -8%;
+    background-color: #763b2b;
+  	border-width: 131pt 115pt 150pt;
+    transform: rotate(42deg);
+  }
+  body .letter-background .img2
+  {
+    position: absolute;
+    bottom: 10mm;
+    background-repeat: repeat-x;
+    background-image: url("checks.jpg");
+    position: absolute;
+    width: 221mm;
+    height: 12mm;
+    bottom: 7mm;
+    background-color: #763b2b;
+  }
+  body .letter-background .fb_img
+  {
+     position: absolute;
+     bottom: 23mm;
+     left: 8mm;
+  
+  }
+  body .letter-background .insta_img
+  {
+     position: absolute;
+     bottom: 23mm;
+     left: 14mm;
+  
+  }
+  body .letter-background .twitter_img
+  {
+    position: absolute;
+    bottom: 23mm;
+    left: 20mm;
+  }
+   body .letter-background .youtube_img
+   {
+    position: absolute;
+    bottom: 23mm;
+    left: 26mm;
+  
+
+   }
+  
+  
+    
+  
+  

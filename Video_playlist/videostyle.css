@@ -1,0 +1,46 @@
+/*body
+{
+background-color: rgba(225, 166, 146, 0.503);
+
+}*/
+header
+{
+    margin-left: 0%;
+    margin-top: 4%;
+
+}
+.iframe
+{
+    
+    margin-top: -2%;
+    margin-left: 20%;
+
+}
+img{
+
+    width: 34mm;
+    height: 21mm;
+    margin-top: 0mm;
+    margin-left: 0mm;
+
+}
+.row .VideoList
+{
+    position: absolute;
+    height: 100mm;
+    width: 60mm;
+    overflow-y: scroll;     
+}
+
+footer{
+
+    
+    margin-top: 2%;
+    margin-left: 45%;
+}
+
+.search{
+
+    margin-left: 30%;
+    width: 20%;
+}

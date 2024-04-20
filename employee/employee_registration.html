@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <div>
+    <h1>Employee Registration Form</h1>
+    </div>
+
+    <form action="#" method="post" enctype="multipart/form-data">
+ 
+      <table>
+            <tr>
+                <td><label for="full_name">Full Name:</label></td>
+                <td><input type="text" id="full_name" name="full_name" required></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender:</label></td>
+                <td>
+                    <select id="gender" name="gender" required>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="dob">Date of Birth:</label></td>
+                <td><input type="date" id="dob" name="dob" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email Address:</label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="contact_number">Contact Number:</label></td>
+                <td><input type="tel" id="contact_number" name="contact_number" required pattern="[0-9]{10}""></td>
+            </tr>
+      
+
+      
+            <tr>
+                <td><label for="degree"> Degree: </label></td>
+                <td><input type="text" id="degree" name="degree" required></td>
+            </tr>
+            <tr>
+               <td><label for="institute"> Institute: </label></td>
+               <td><textarea id="institute" name="institute" required></textarea></td>
+           </tr>
+           <tr>
+            <td><label for="year_of_passing">Year of Completion:</label></td>
+            <td><input type="number" id="year_of_passing" name="year_of_passing" required></td>
+        </tr>
+      
+
+      <tr>
+                <td><label for="permanent_address">Permanent Address:</label></td>
+                <td><textarea id="permanent_address" name="permanent_address" required></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="current_address">Current Address:</label></td>
+                <td><textarea id="current_address" name="current_address" required></textarea></td>
+            </tr>
+            <tr>
+               <td><label for="hobbies">Hobbies:</label></td>
+               <td><textarea id="hobbies" name="hobbies"></textarea></td>
+           </tr>
+    
+      
+      
+            <tr>
+                <td><label for="job_title">Job Title:</label></td>
+                <td><input type="text" id="job_title" name="job_title"></td>
+            </tr>
+            <tr>
+                <td><label for="experience">Experience:</label></td>
+                <td><input type="text" id="experience" name="experience" required></td>
+            </tr>
+            <tr>
+               <td><label for="company_name">Company Name:</label></td>
+               <td><input type="text" id="company_name" name="company_name"></td>
+           </tr>
+           <tr>
+            <td><label for="duration">Duration:</label></td>
+
+            <td><label for="duration_from"> From </label>
+                <input type="date" id="duration_from" name="duration_from" required>
+            </td>
+               <td> <label for="duration_to"> To </label>
+                <input type="date" id="duration_to" name="duration_to" required>
+            </td>
+        </tr>
+           <tr>
+            <td><label for="responsibility">Responsibility:</label></td>
+            <td><input type="text" id="responsibility" name="responsibility"></td>
+           </tr>
+
+            <tr>
+                <td><label for="current_salary">Current Salary:</label></td>
+                <td><input type="number" id="current_salary" name="current_salary"></td>
+            </tr>
+            <tr>
+                <td><label for="expected_salary">Expected Salary:</label></td>
+                <td><input type="number" id="expected_salary" name="expected_salary"></td>
+            </tr>
+            <tr>
+                <td><label for="joining_date">Date of Joining:</label></td>
+                <td><input type="date" id="joining_date" name="joining_date" required></td>
+            </tr>
+            <tr>
+                <td><label for="profile_picture">Profile Picture:</label></td>
+                <td><input type="file" id="profile_picture" name="profile_picture"></td>
+            </tr>
+        </table>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
